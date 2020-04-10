@@ -11,7 +11,7 @@ public class Conection {
 	private static String driver = "com.mysql.jdbc.Driver";
 	private static String usuario = "root";
 	private static String senha = "root";
-	private static String url = "jdbc:mysql://localhost:3306/sgp?useSSL=false";
+	private static String url = "jdbc:mysql://localhost:3306/ecommercegames?useSSL=false";
 
 	
 	public static  Connection getConnection() throws SQLException{
